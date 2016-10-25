@@ -52,25 +52,5 @@
         android:layout_height="wrap_content"
         android:src="@drawable/yahoo_logo"
         android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:id="@+id/imageView" />
-
-    <EditText
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/locationEditText"
-        android:layout_above="@+id/button"
         android:layout_centerHorizontal="true" />
-
-    <Button
-        style="?android:attr/buttonStyleSmall"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Search"
-        android:id="@+id/button"
-        android:nestedScrollingEnabled="false"
-        android:layout_above="@+id/imageView"
-        android:layout_centerHorizontal="true"
-        android:onClick="onSearch"
-        android:textAlignment="center" />
 </RelativeLayout>
